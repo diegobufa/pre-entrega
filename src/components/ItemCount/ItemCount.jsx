@@ -7,15 +7,11 @@ const ItemCount = ({stock, initial, onAdd}) => {
  
 
   const incrementar = ()=> {
-    if(quantity < stock){
-      setQuantity(quantity + 1);
-    }
+    quantity < stock ? setQuantity(quantity + 1) : console.log("Maximo alcanzado");
   }
 
   const decrementar = () =>{
-    if(quantity > 1){
-      setQuantity(quantity - 1);
-    }
+    quantity > initial ? setQuantity(quantity - 1) : console.log("Minimo alcanzado")
   }
   
   return (
