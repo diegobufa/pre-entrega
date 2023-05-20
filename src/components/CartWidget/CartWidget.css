@@ -1,4 +1,9 @@
 .imgCarrito {
-    width: 2rem;
-    margin-left: 30px;    
+    width: 2rem;     
+}
+.carritoImage{
+    display:flex;
+    flex-direction: column-reverse;
+    margin-top: .5rem;  
+    margin-left: .5rem; 
 }

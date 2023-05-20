@@ -1,11 +1,12 @@
 import './CartWidget.css'
 
 const CartWidget = () => {
-    const imgCarrito = "./carrito.png";
+    const imgCarrito = "../asses/carrito.png";
   return (
-    <div>
+    <div className="carritoImage">
+        <strong>10</strong>
         <img className='imgCarrito' src={imgCarrito} alt="Carrito de compras" />
-        <p>10</p>
+        
     </div>
   )
 }

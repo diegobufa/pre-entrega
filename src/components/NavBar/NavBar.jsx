@@ -1,14 +1,19 @@
 import './NavBar.css'
 import CartWidget from '../CartWidget/CartWidget'
+import { Link } from 'react-router-dom';
+import { NavLink} from "react-router-dom";
 
 const NavBar = () => {
-    const imgLogo = "./bandera.png"
-    const CarritoMini = "./carrito.png";
+    const imgLogo = "../asses/bandera.png";
+    const CarritoMini = "../asses/carrito.png";
     
     return (
         <header className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container-fluid">
-                <img className='imgLogo' src={imgLogo} alt="Logo" />
+                <Link to="/">
+                    <img className='imgLogo' src={imgLogo} alt="Logo" />
+                </Link>
+                
                 <h1 className="regional">Regionales Firmat </h1>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon" />
@@ -21,10 +26,15 @@ const NavBar = () => {
                             Productos Regionales
                             </button>
                             <div className="dropdown-menu" aria-labelledby="navbar">
-                                <a className="dropdown-item" href="#">Set Materos</a>
-                                <a className="dropdown-item" href="#">Indumentaria de Campo y Urbano</a>
-                                <a className="dropdown-item" href="#">Cuchillos Artesanales</a>
-                                <a className="dropdown-item" href="#">Parrillas y Fogones</a>
+                                <div className="categorias">
+                                    <NavLink className="categoriasItem" to={`/categoria/2`}>Set Materos</NavLink>
+                                    <NavLink className="categoriasItem" to={`/categoria/3`}>Tablas y Jarras</NavLink>
+                                    <NavLink className="categoriasItem" to={`/categoria/4`}>Indumentaria de Campo y Urbano</NavLink>
+                                    <NavLink className="categoriasItem" to={`/categoria/5`}> Sillones </NavLink>
+                                    <NavLink className="categoriasItem" to={`/categoria/6`}> Masetas </NavLink>
+                                </div>
+                               
+                                
                                 <div className="dropdown-divider"></div>
                                 <a className="dropdown-item" href="#" >
                                     <span className="CarritoMiniSpan">
