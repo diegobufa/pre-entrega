@@ -6,6 +6,7 @@ const CartItem = ({item, cantidad }) => {
 
     return (
         <div>
+            console.log(item.nombre)
             <h4> {item.nombre} </h4>
             <p> Cantidad: {cantidad}</p>
             <p> Precio: {item.precio}</p>
