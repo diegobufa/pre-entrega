@@ -1,0 +1,11 @@
+.miBtnCheckout{
+    background-color: #f88c8c;
+    border: none;
+    color: white;
+    font-size: 14px;
+    margin: 5px;
+    cursor: pointer;
+    max-width: 8rem;
+    padding: .5rem; 
+    display: inline-block
+}

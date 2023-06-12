@@ -1,6 +1,6 @@
 .imagenCardItem img{
     max-width: 300px;
-    padding: 1rem;
+    padding: .8rem;
    
 }
 
@@ -9,12 +9,13 @@
     flex-direction: row;    
     align-items: center;
     justify-content: center;
+    
    
 }
 .miBtn2{
-background-color: #3fc7f0;
+background-color: #f88c8c;
 border: none;
-color: rgb(16, 13, 13);
+color: white;
 font-size: 14px;
 margin: 5px;
 cursor: pointer;
@@ -24,5 +25,11 @@ padding: .5rem;
 .textCardItem{
      list-style: none;
 }
-
+.SubCardItem{
+  background-color: antiquewhite;  
+  width: 50vh;
+  height: 50vh;
+  padding: 2rem;
+  margin: 1rem;
+}
 

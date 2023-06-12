@@ -7,10 +7,10 @@ const CartItem = ({item, cantidad}) => {
 
     return (
         <div className="CardItem">
-            <div>
+            <div className="SubCardItem">
                 <h4> {item.nombre} </h4>
                 <p> Cantidad: {cantidad}</p>
-                <p> Precio: {item.precio}</p>           
+                <p> Precio: ${item.precio}</p>           
                 <button className="miBtn2" onClick={()=> eliminarProducto(item.id)}>Eliminar Producto </button>
             </div>            
             <div className="imagenCardItem">
