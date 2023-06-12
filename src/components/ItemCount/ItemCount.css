@@ -16,3 +16,17 @@
 .containerContador p {
     font-size: 20px;
 }
+
+.miBtn {
+    background-color: #3fc7f0;
+    border: none;
+    color: rgb(16, 13, 13);
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+}

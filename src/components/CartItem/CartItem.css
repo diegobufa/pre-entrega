@@ -1,0 +1,28 @@
+.imagenCardItem img{
+    max-width: 300px;
+    padding: 1rem;
+   
+}
+
+.CardItem{
+    display:flex;
+    flex-direction: row;    
+    align-items: center;
+    justify-content: center;
+   
+}
+.miBtn2{
+background-color: #3fc7f0;
+border: none;
+color: rgb(16, 13, 13);
+font-size: 14px;
+margin: 5px;
+cursor: pointer;
+max-width: 8rem;
+padding: .5rem;
+}
+.textCardItem{
+     list-style: none;
+}
+
+

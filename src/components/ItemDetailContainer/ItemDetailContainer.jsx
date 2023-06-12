@@ -6,7 +6,7 @@ import { getDoc, doc} from "firebase/firestore"
 
 
 const ItemDetailContainer = () => {
-  const [producto, setProducto] = useState(null);
+  const [producto, setProducto] = useState([]);
 
   const { idItem } = useParams();
 
@@ -22,7 +22,7 @@ const ItemDetailContainer = () => {
   }, [idItem]);
 
   return (
-    <div>
+    <div className="detallesContainer">
       <ItemDetail {...producto} />
     </div>
   )
