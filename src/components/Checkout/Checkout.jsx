@@ -1,8 +1,9 @@
-import { useState,  useContext } from "react"
+import { useState,  useContext, useEffect } from "react"
 import { CarritoContext } from "../../Context/CarritoContext"
 import { db } from "../../services/config"
 import { collection, addDoc } from "firebase/firestore"
 import "./Checkout.css"
+import { Link } from "react-router-dom"
 
 const Checkout = () => {
     const {carrito, vaciarCarrito,total, cantidadTotal } = useContext(CarritoContext);
@@ -48,6 +49,12 @@ const Checkout = () => {
         .catch((error)=> {
             setError("Se Produjo un error al crear la orden, vuelva a intentarlo.", error)
         })
+        useEffect(() => {
+                        const timer = setTimeout(() => {
+                          
+                        }, 1000);
+                        return () => clearTimeout(timer);
+                      }, []);
     }
     return (
         <div>
@@ -64,7 +71,7 @@ const Checkout = () => {
                     </div>
                 ))}
                         <h3> Cantidad Total: {cantidadTotal} </h3>
-                        <h3> Total: {total} </h3>
+                        <h3> Total: ${total} </h3>
                 
                 < hr />
                 <label htmlFor="">Nombre</label>
@@ -93,12 +100,17 @@ const Checkout = () => {
                 {
                     error && < p style= {{color: "red"}}> {error} </p>
                 }
-                < button type="submit"> Finalizar Orden </button>
+                < button type="submit" className="btnSubmit"> Finalizar Orden </button>
                 {
-                    ordenId && (
-                        <strong> !Gracias por tu  Compra! </strong>
+                    ordenId && (                       
+                        <strong className="orderId">¡Gracias por tu compra! Tu número de orden es: {ordenId} </strong>               
                     )
+                    
                 }
+                <Link to="/">
+                    <button type="submit" className="btnSubmit"> Inicio </button>
+                </Link>
+                
             </form>
         </div>
     )

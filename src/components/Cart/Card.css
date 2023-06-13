@@ -1,11 +1,34 @@
 .miBtnCheckout{
     background-color: #f88c8c;
     border: none;
-    color: white;
+    color: rgb(16, 15, 15);
     font-size: 14px;
     margin: 5px;
     cursor: pointer;
+    font-weight: 500;
     max-width: 8rem;
     padding: .5rem; 
-    display: inline-block
+    display: inline-block;
+}
+.btnSeguirComprando{
+    background-color: #2af549;
+    border: none;
+    color: rgb(16, 15, 15);
+    font-size: 14px;
+    font-weight: 500;
+    margin: 5px;
+    cursor: pointer;    
+    padding: .5rem; 
+    display: inline-block;
+}
+.btnVaciar{
+    background-color: #51c9f4;
+    border: none;
+    color: rgb(16, 15, 15);
+    font-size: 14px;
+    font-weight: 500;
+    margin: 5px;
+    cursor: pointer;    
+    padding: .5rem; 
+    display: inline-block;
 }

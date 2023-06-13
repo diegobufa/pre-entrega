@@ -9,13 +9,14 @@ import Cart from './components/Cart/Cart'
 import Checkout from './components/Checkout/Checkout'
 import Footer from './components/Footer/Footer';
 
+
 function App() {
 
   return (
     <>
       <BrowserRouter>
         <CarritoProvider>
-          <NavBar />
+          <NavBar />                   
           <Routes>
             <Route path='/' element={<ItemListContainer/>}/>
             <Route path='/categoria/:idCategoria' element={<ItemListContainer/>}/>
