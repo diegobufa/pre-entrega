@@ -2,11 +2,11 @@
 Proyecto REGIONALES FIRMAT:
 
 <div align="center">
-  <a href="https://github.com/Diego-Schmidt/coderhouse-react">
-    <img src="https://diego-schmidt.github.io/coderhouse-react/static/media/logo.31c5442b01f1a5c30e92.webp" alt="Logohabemuspapagit " width="184" height="74">
+  <a href="https://github.com/diegobufa>
+    <img src="../Pre-Entrega/public/asses/bandera.png" alt="Logo " width="184" height="74">
   </a>
 
-  <h3 align="center">Habemus Papa! React - Curso de CoderHouse</h3>
+  <h3 align="center">Regionales Firmat React - Curso de CoderHouse</h3>
 <br />
 <h3 align="center">Video de navegación en la aplicación (click para ver)</h3>
   <a href="http://www.youtube.com/watch?v=YfTgt29KcwE">
