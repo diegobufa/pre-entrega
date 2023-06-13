@@ -2,15 +2,15 @@
 Proyecto REGIONALES FIRMAT:
 
 <div align="center">
-  <a href="https://github.com/diegobufa>
-    <img src="../Pre-Entrega/public/asses/bandera.png" alt="Logo " width="184" height="74">
+  <a href="https://github.com/diegobufa">
+    <img src="./public/asses/bandera.png" alt="Logo " width="184" height="74">
   </a>
 
   <h3 align="center">Regionales Firmat React - Curso de CoderHouse</h3>
 <br />
 <h3 align="center">Video de navegación en la aplicación (click para ver)</h3>
-  <a href="http://www.youtube.com/watch?v=YfTgt29KcwE">
-    <img src="http://img.youtube.com/vi/YfTgt29KcwE/0.jpg" alt="habemuspapayoutube" >
+  <a href="https://www.youtube.com/watch?v=miGS0whWf3E">
+   
   </a>
 
   <p align="center">
@@ -18,16 +18,16 @@ Proyecto REGIONALES FIRMAT:
    
 </div>
 
-Proyecto ficticio de sitio e-commerce creado para el curso de ReactJS de CoderHouse, basado en el proyecto Habemus Papa! para el curso de Desarrollo Web.
+Proyecto  de sitio e-commerce creado para el curso de ReactJS de CoderHouse, basado en el proyecto Regionales Firmat para el crear un sitio para un comercio de la ciudad de Firmat, el cual vende diferentes tipos de articulos.
 
 En este proyecto para el curso de ReactJS creamos varios componentes con el objetivo de construir un sitio e-commerce funcional. 
 Los componentes centrales para el desarrollo de la funcionalidad son: ItemListContainer, ItemList, Item, ItemDetailContainer, ItemDetail, CartView, CartWidget, CartContext, NavBar, ItemCount.
 
-Comenzamos instalando el software necesario, NodeJS, npm, etc. Luego con el comando npx create-react-app para generar la estructura básica de un proyecto ReactJS.
+Comenzamos instalando el software necesario, NodeJS, npm, etc. Luego con vite para generar la estructura básica de un proyecto ReactJS.
 
-Decidí reutilizar los diseños del proyecto Habemus Papa! que realizamos en el curso de Desarrollo Web también en CoderHouse https://github.com/Diego-Schmidt/habemus-full-responsive/tree/habemus-sass
+Decidí crear este proyecto para poder desarrollar un e-commerce para un local de venta de diferentes articulos, ya que solamente contaba con venta dentro del local, y mostraba sus articulos por las redes sociales.
 
-Para crear la funcionalidad necesaria para un proyecto ecommerce con carrito tuvimos que crear varios componentes. NavBar, Footer, CartContext, CartWidget, Item, ItemList, ItemListContainer, ItemDetailContainer, ItemDetail, ItemCount, LoadingSpinner y CartView, CheckOut.
+Para crear la funcionalidad necesaria para un proyecto ecommerce con carrito tuvimos que crear varios componentes. 
 
 Navbar = Componente que contiene los links para la navegación dentro de la app, el logo y el ícono del carrito.
 
@@ -35,7 +35,7 @@ CartWidget = Componente del ícono del carrito de compras.
 
 Footer= Componente con el diseño del footer.
 
-CartContext = Componente con toda la programación para mostrar el estado del contenido del carrito de compras.
+CarritoContext = Componente con toda la programación para mostrar el estado del contenido del carrito de compras.
 
 Item = Componente que se encarga de generar el diseño de los ítems que se muestran en la lista del catálogo.
 
@@ -49,14 +49,10 @@ ItemDetail = Componente con los estilos necesarios para tomar la información qu
 
 ItemCount = Componente para agregar o quitar n productos al carrito desde la sección de detalles del producto.
 
-LoaDingSpinner = Componente con estilos que muestra el clásico spinner cuando está cargando el contenido.
-
-CartView = Componente para generar el carrito de compras recibiendo la información que genera CartContext.
-
 CheckOut = Componente para generar el paso final del proceso de compras, donde el cliente ingresa sus datos y realiza el pago.
 
 
-Agradezco a profesores y turores de CoderHouse por la guia y la buena onda en todos los cursos, durante el proceso de aprendizaje :D y también a todos los compañeros que me ayudaron y a los cuales ayudé.
+Agradezco a profesores y turores de CoderHouse por la guia y la buena onda en todos los cursos.
 
 ### Echo con
 
@@ -67,7 +63,6 @@ Agradezco a profesores y turores de CoderHouse por la guia y la buena onda en to
 * [JavaScript]
 * [ReactJS]
 * [React-Bootstrap]
-* [Sweetalert2]
 * [Firebase]
 
 <!-- LICENSE -->
@@ -82,7 +77,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contacto
 
-Diego Schmidt - [@diegogschmidt](https://twitter.com/diegogschmidt) - email@diegoschmidt.com
+# Diego Bufalari #
 
-Link del proyecto: [https://github.com/Diego-Schmidt/coderhouse-react](https://github.com/Diego-Schmidt/coderhouse-react)
-Web Deployment: [https://diego-schmidt.github.io/coderhouse-react/](https://diego-schmidt.github.io/coderhouse-react/)
+Link del proyecto: [https://github.com/diegobufa/pre-entrega]
+Web Deployment: [https://dreamy-mochi-ec6a99.netlify.app/]
