@@ -10,7 +10,7 @@ Proyecto REGIONALES FIRMAT:
 <br />
 <h3 align="center">Video de navegación en la aplicación (click para ver)</h3>
   <a href="https://www.youtube.com/watch?v=miGS0whWf3E">
-   
+   <img src="https://i9.ytimg.com/vi_webp/miGS0whWf3E/mq2.webp?sqp=CMisoKQG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYACqAWKAgwIABABGGUgVShIMA8=&rs=AOn4CLCteMZuvb-FBKheBJlndV3WTrxJpg">
   </a>
 
   <p align="center">
