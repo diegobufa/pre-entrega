@@ -12,10 +12,7 @@ Proyecto REGIONALES FIRMAT:
   <a href="https://www.youtube.com/watch?v=miGS0whWf3E">
    <img src="https://i9.ytimg.com/vi_webp/miGS0whWf3E/mq2.webp?sqp=CMisoKQG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYACqAWKAgwIABABGGUgVShIMA8=&rs=AOn4CLCteMZuvb-FBKheBJlndV3WTrxJpg">
   </a>
-
-
-  <iframe width="785" height="417" src="https://www.youtube.com/embed/miGS0whWf3E" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+  
   <p align="center">
     
    
@@ -81,6 +78,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contacto
 
 # Diego Bufalari #
+<p>Link del proyecto: [https://github.com/diegobufa/pre-entrega] </p>
 
-Link del proyecto: [https://github.com/diegobufa/pre-entrega]
-Web Deployment: [https://dreamy-mochi-ec6a99.netlify.app/]
+<p> Web Deployment: [https://dreamy-mochi-ec6a99.netlify.app/] </p>
