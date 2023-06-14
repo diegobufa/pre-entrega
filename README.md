@@ -17,6 +17,7 @@ Proyecto REGIONALES FIRMAT:
     
    
 </div>
+## Partes del Proyecto:
 
 Proyecto  de sitio e-commerce creado para el curso de ReactJS de CoderHouse, basado en el proyecto Regionales Firmat para el crear un sitio para un comercio de la ciudad de Firmat, el cual vende diferentes tipos de articulos.
 
@@ -54,12 +55,12 @@ CheckOut = Componente para generar el paso final del proceso de compras, donde e
 
 Agradezco a profesores y turores de CoderHouse por la guia y la buena onda en todos los cursos.
 
-### Echo con
+### Tecnologias utilizadas:
 
 
 * [HTML]
 * [CSS]
-* [Bootstrap](https://getbootstrap.com)
+* [Bootstrap]
 * [JavaScript]
 * [ReactJS]
 * [React-Bootstrap]

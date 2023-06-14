@@ -23,6 +23,11 @@
     justify-content: center;
     align-items: center;
 }
+@media (max-width: 858px){
+    .contenedorImgBtn{
+        flex-direction: column;
+    }
+}
 .contenedorTextBtn {
     width: 200px;
     text-align: center;

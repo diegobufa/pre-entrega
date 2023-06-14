@@ -1,4 +1,4 @@
-import { useState,  useContext, useEffect } from "react"
+import { useState,  useContext } from "react"
 import { CarritoContext } from "../../Context/CarritoContext"
 import { db } from "../../services/config"
 import { collection, addDoc } from "firebase/firestore"
@@ -49,12 +49,7 @@ const Checkout = () => {
         .catch((error)=> {
             setError("Se Produjo un error al crear la orden, vuelva a intentarlo.", error)
         })
-        useEffect(() => {
-                        const timer = setTimeout(() => {
-                          
-                        }, 1000);
-                        return () => clearTimeout(timer);
-                      }, []);
+       
     }
     return (
         <div>

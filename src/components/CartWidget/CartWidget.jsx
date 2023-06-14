@@ -5,14 +5,16 @@ import { CarritoContext} from '../../Context/CarritoContext'
 
 const CartWidget = () => {
 
-    const cantidadTotal = useContext(CarritoContext);
+    const cantidadCarrito = useContext(CarritoContext);
     const imgCarrito = "../asses/carrito.png";
   return (
-    < Link to='/cart'>
-      <img className='imgCarrito' src={imgCarrito} alt="Carrito de compras" />
-      {
-        cantidadTotal > 0 && <span> {cantidadTotal} </span>
-      }
+    < Link to='/cart' style={{paddingLeft: 13, textDecoration: 'none'}}>
+      <img className='imgCarrito' src={imgCarrito} alt="Carrito de compras" />    
+        {
+          cantidadCarrito.cantidadTotal > 0 && <span > {cantidadCarrito.cantidadTotal} </span>
+        }
+      
+     
     </Link>
     
   )
